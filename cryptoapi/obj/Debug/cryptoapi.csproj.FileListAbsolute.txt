@@ -1,0 +1,12 @@
+D:\onu\ЗИ\cryptoapi\cryptoapi\bin\Debug\cryptoapi.exe.config
+D:\onu\ЗИ\cryptoapi\cryptoapi\obj\Debug\cryptoapi.csprojResolveAssemblyReference.cache
+D:\onu\ЗИ\cryptoapi\cryptoapi\obj\Debug\cryptoapi.Form1.resources
+D:\onu\ЗИ\cryptoapi\cryptoapi\obj\Debug\cryptoapi.Properties.Resources.resources
+D:\onu\ЗИ\cryptoapi\cryptoapi\obj\Debug\cryptoapi.csproj.GenerateResource.Cache
+D:\onu\ЗИ\cryptoapi\cryptoapi\bin\Debug\cryptoapi.exe
+D:\onu\ЗИ\cryptoapi\cryptoapi\bin\Debug\cryptoapi.pdb
+D:\onu\ЗИ\cryptoapi\cryptoapi\obj\Debug\cryptoapi.exe
+D:\onu\ЗИ\cryptoapi\cryptoapi\obj\Debug\cryptoapi.pdb
+E:\crypto\CryptoApi\cryptoapi\bin\Debug\cryptoapi.exe.config
+E:\crypto\CryptoApi\cryptoapi\obj\Debug\cryptoapi.exe
+E:\crypto\CryptoApi\cryptoapi\obj\Debug\cryptoapi.pdb

@@ -1,0 +1,34 @@
+This walkthrough demonstrates how to encrypt and decrypt content. The code examples are designed for a Windows Forms application. 
+This application does not demonstrate real world scenarios, such as using smart cards. 
+Instead, it demonstrates the fundamentals of encryption and decryption.
+This walkthrough uses the following guidelines for encryption:
+Use the RijndaelManaged class, a symmetric algorithm, to encrypt and decrypt data by using its automatically generated Key and IV.
+Use the RSACryptoServiceProvider, an asymmetric algorithm, to encrypt and decrypt the key to the data encrypted by RijndaelManaged. 
+Asymmetric algorithms are best used for smaller amounts of data, such as a key.
+Represents the padding modes to be used for encryption or decryption.
+
+typedef enum _PaddingMode
+{
+    None     = 1,
+    PKCS7    = 2,
+    Zeros    = 3,
+    ANSIX923 = 4,
+    ISO10126 = 5
+}PaddingMode;
+Parameters
+Value	Description
+None
+No padding. Whole blocks are required.
+PKCS7
+Padding mode defined in RFC 2898, Section 6.1.1, Step 4, generalized to whatever block size is required.
+Zeros
+Pad with zero bytes to fill out the last block.
+ANSIX923
+Fills the bytes with zeros and puts the number of padding bytes in the last byte.
+ISO 10126
+Same as PKCS7 except that it fills the bytes before the last one with random values.
+Requirements
+Header: Declared in infocard.h.
+See Also
+Reference
+GetCryptoTransform
